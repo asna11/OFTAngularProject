@@ -1,0 +1,156 @@
+<div class="row top-content">
+    <div class="column" >
+        <h1>We make it Super<br/> Simple</h1>
+        <hr>
+        <img class="video-img" src="assets/images/collect_img-video.png" width="450px" height="252px">
+        <img class="small-circle" src="assets/images/blob-small.png" width="350px" height="350px">
+    <img class="dots" src="assets/images/accounting_dots.png"  width="300px" height="49px">
+    </div>
+
+    <div class="column">
+        <div class="row">
+            <div class="column-card-1">
+      <mat-card class="eligibility-calc">
+            <h3>Eligibility Calculator</h3>
+            <mat-card-content>
+                <div class="monthly-income">
+                    <h5>Monthly Income</h5>
+                    <h4>$ {{value}}</h4>
+                    <mat-slider
+                    class="example-margin"
+                    [disabled]="disabled"
+                    [invert]="invert"
+                    [max]="max"
+                    [min]="min"
+                    [step]="step"
+                    [thumbLabel]="thumbLabel"
+                    [tickInterval]="getSliderTickInterval()"
+                    [(ngModel)]="value"
+                    [vertical]="vertical"
+                    aria-labelledby="example-name-label">
+                </mat-slider><br>
+                <label style="font-family: 'montserrat';">$ {{min}}</label>
+                <label style="float: right;font-family: 'montserrat';">$ {{max}}</label>
+                </div>
+
+                <div class="monthly-expense">
+                    <h5>Monthly Expense</h5>
+                    <h4>$ {{valueExp}}</h4>
+                    <mat-slider
+                    class="example-margin"
+                    [disabled]="disabled"
+                    [invert]="invert"
+                    [max]="maxExp"
+                    [min]="minExp"
+                    [step]="step"
+                    [thumbLabel]="thumbLabel"
+                    [tickInterval]="getSliderTickInterval()"
+                    [(ngModel)]="valueExp"
+                    [vertical]="vertical"
+                    aria-labelledby="example-name-label">
+                </mat-slider><br>
+                </div>
+
+                <div class="monthly-expense">
+                    <h5>Repayment Tenure</h5>
+                    <mat-form-field>
+                        <mat-select name="countryString" [(value)]="selectedCountry">
+                          <mat-option [value]="'GB'">6 Months</mat-option>
+                          <mat-option [value]="'US'">4 Months</mat-option>
+                          <mat-option [value]="'CA'">2 Months</mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                </div>
+      
+                <div class="row">
+                    <div style="width: 70%; float:left;">
+                        <h5>Do you have any existing loans?</h5>
+                    </div>
+                    <div style="width: 30%; float:left">
+                        <mat-slide-toggle></mat-slide-toggle>
+                    </div>
+                </div>
+           <div class="emi_input">
+            <h5>EMI of existing loan(optional)</h5>
+            <input class="fucosed" placeholder="$ 15,000" value="">
+           </div>   
+            </mat-card-content>
+        </mat-card>
+    <img class="dots-2" src="assets/images/accounting_dots.png"  width="300px" height="49px">
+
+            </div>
+            <div class="column-card-2">
+                <mat-card class="get-money-card">
+                    <mat-card-content>
+                        <h5>Loan Amount</h5>
+                        <h4>$ 1,00,000</h4>
+
+                        <h5>Your EMI will be</h5>
+                        <h4>$ 1,00,000</h4>
+                        <button>GET MONEY</button>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </div>
+  
+    
+    </div>
+  </div>
+
+  <div class="row">
+      <div class="column-card-1">
+          <div class="row">
+              <div class="column">
+                  <mat-card class="services-card">
+                    <mat-card-header>
+                        <div mat-card-avatar class="example-header-image"></div>
+                    </mat-card-header>
+                    <mat-card-title>Quick cash disbursement</mat-card-title>
+                    <mat-card-subtitle>Get terms loans that your business needs within 72 hours</mat-card-subtitle>
+                  </mat-card>
+
+                  <mat-card class="services-card">
+                    <mat-card-header>
+                        <div mat-card-avatar class="header-image-1"></div>
+                    </mat-card-header>
+                    <mat-card-title>Low-interest rate</mat-card-title>
+                    <mat-card-subtitle>Achieve your financial goals with an amazing interest rate...</mat-card-subtitle>
+                  </mat-card>
+
+                  <mat-card class="services-card">
+                    <mat-card-header>
+                        <div mat-card-avatar class="header-image-2"></div>
+                    </mat-card-header>
+                    <mat-card-title>Zero Paperwork</mat-card-title>
+                    <mat-card-subtitle>Get started instantly by submitting only your...</mat-card-subtitle>
+                  </mat-card>
+              </div>
+              <div class="column">
+                  <div class="cards-container">
+                    <mat-card class="services-card-2">
+                        <mat-card-header>
+                            <div mat-card-avatar class="example-header-image"></div>
+                        </mat-card-header>
+                        <mat-card-title>Ace your business finances</mat-card-title>
+                        <mat-card-subtitle>Manage banking, accounting & everything in between...</mat-card-subtitle>
+                      </mat-card>
+    
+                      <mat-card class="services-card-2">
+                        <mat-card-header>
+                            <div mat-card-avatar class="header-image-1"></div>
+                        </mat-card-header>
+                        <mat-card-title>Loans to fight COVID-19</mat-card-title>
+                        <mat-card-subtitle>Zero EMI for first 3 months on Back-to-Business...</mat-card-subtitle>
+                      </mat-card>
+                  </div>
+            </div>
+          </div>
+      </div>
+      <div class="column-card-2">
+       <h1>Boost your business<br>with Open</h1>
+       <hr><br>
+       <p>Get your hands on a term loan that’s<br> crafted for your business</p>
+       <button type="button" class="">Get an Open Account</button>
+    </div>
+    <img class="wave-bg" src="assets/images/sol_wave_bg.png">
+  </div>

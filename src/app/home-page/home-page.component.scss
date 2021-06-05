@@ -1,0 +1,345 @@
+.top-content{
+    h1{
+        font-family: montserrat;
+        font-weight: 600;
+        margin: 0 0 -8px;
+        margin-left: 119px;
+    }
+    hr{
+        width: 140px;
+        height:4px;
+        background-color:#000000;
+        opacity: 1;
+        border-radius: 25px;
+        margin-left: 119px;
+    
+    }
+}
+
+
+.top-content{
+    height: 635px;
+    margin-top: 162px;
+}
+
+
+
+.video-img{
+    margin-top: 26px;
+    margin-left: 60px;
+    padding-left: 16px;
+
+}
+
+.small-circle{
+    position: absolute;
+    left: -96px;
+    top: 119px;
+    z-index: -1;
+}
+
+.dots{
+    position: absolute;
+    /* bottom: -44px; */
+    top: 490px;
+    left: 318px;
+}
+
+.dots-2{
+    position: absolute;
+    left: 985px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column-card-1{
+    float: left;
+    width: 60%;
+    padding: 10px;
+    height: 300px;
+}
+
+.column-card-2{
+    float: left;
+    width: 40%;
+    height: 300px;
+    margin-top: 100px;
+    h1{
+        font-family: montserrat;
+        font-weight: 600;
+        margin: 0 0 0px;
+    }
+    hr{
+        width: 140px;
+        height:4px;
+        background-color:#707070;
+        opacity: 1;
+        border-radius: 25px;
+        float:left;
+    }
+    p{
+        margin: 8px 0 48px;
+        font-family: montserrat;
+
+    }
+    .get-money-card{
+        button{
+            background: #fff;
+        border: 1px solid #6b389d;
+        padding: 11px 18px 11px 18px;
+        border-radius: 18px;
+        cursor:pointer;
+        }
+        button:hover{
+            background-color:#fff;
+            color:#6b389d;
+        }
+    }
+    button{
+        background: transparent;
+    border: 1px solid #6b389d;
+    padding: 11px 18px 11px 18px;
+    border-radius: 18px;
+    cursor:pointer;
+    color:#6b389d;
+    }
+    button:hover{
+        background-color:#6b389d;
+        color:#fff;
+    }
+
+}
+
+.row{
+    // height: 635px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+mat-card.eligibility-calc{
+    max-width: 368px;
+    box-shadow:0px 1px 17px 9px rgb(154 94 197 / 8%),
+     0px 0px 0px 0px rgb(0 0 0 / 14%),
+     0px 0px 0px 0px rgb(0 0 0 / 12%) !important;
+     border-radius: 15px;
+     mat-card-content{
+         margin-left:14px;
+         margin-right: 20px;
+         .monthly-income{
+            margin-bottom: 22px;
+         }
+         .monthly-expense{
+            margin-bottom: 12px;
+           
+         }
+         .emi_input{
+            margin-top:22px;
+            input{
+                border-top: 0px;
+                border-left: 0px;
+                border-right: 0px;
+                border-bottom:1px solid #c6c6c6;
+                width:100%;
+                margin-top: 12px;
+                padding-bottom: 6px;
+                
+            }
+           .fucosed:focus-visible{
+            outline: 0px;
+           }
+         }
+         mat-form-field{
+             width:100%;
+         }
+         mat-slide-toggle{
+            float:right;
+        }
+     }
+        h3{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    h5{
+        font-family: 'montserrat';
+        font-weight: 600;
+        margin-bottom: 6px !important;
+
+    }
+    h4{
+        font-family: 'montserrat';
+        font-weight: 600;
+        margin-bottom: 0px !important;
+    }
+    label{
+        font-size: 12px;
+    }
+}
+
+mat-slider{
+    width: 100%;    
+}
+
+::ng-deep .mat-accent .mat-slider-track-fill, .mat-accent .mat-slider-thumb, .mat-accent .mat-slider-thumb-label{
+    background-color: #6c389e !important;
+}
+
+::ng-deep .mat-slider-thumb{
+    background-color: #6c389e !important;
+    border-color: rgb(255 255 255) !important;
+    width: 15px !important;
+    height: 15px !important;
+    bottom: -8px !important;
+
+}
+
+mat-card.get-money-card{
+    box-shadow:6px ​6px 34px 33px rgb(154 94 197 / 8%),
+     1px 1px 17px 5px rgb(0 0 0 / 14%), 0px 0px 0px 0px rgb(0 12 0 / 12%) !important;
+    background-color: #6B389D;
+    min-height: 340px;
+    width: 180px;
+    border-radius: 0px 15px 15px 0px;
+    mat-card-content{
+        padding-top: 68px;
+    }
+
+    h5{
+        font-family: 'montserrat';
+        color:#fff;
+        text-align: center;
+        margin-bottom:0px;
+    }
+    h4{
+        font-family: 'montserrat';
+        color:#fff;
+        text-align: center;
+    }
+    button{
+        margin: auto;
+        display: block;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 22px;
+        padding-right: 22px;
+        border: 0px;
+        border-radius: 24px;
+        background: #fff;
+        font-size: 11px;
+        color:#6B389D;
+    }
+}
+
+mat-card.services-card{
+    margin-left: 100px;
+    margin-bottom: 28px;
+    border-radius: 11px;
+    cursor:pointer;
+    box-shadow:0px 0px 18px 6px rgb(154 94 197 / 13%), 0px 0px 0px 0px rgb(0 0 0 / 14%), 0px 0px 0px 0px rgb(0 0 0 / 12%) !important;
+    .example-header-image{
+        background-image: url("/assets/images/Get Paid Instantly.png");
+        background-size: 77px;
+        background-repeat: no-repeat;
+        
+    }
+    .header-image-1{
+        background-image: url("/assets/images/Low interest rate.png");
+    }
+    .header-image-2{
+        background-image: url("/assets/images/Secure Payments.png");
+    }   
+    .mat-card-avatar{
+        height: 80px !important;
+        width: 80px !important;
+    }
+    mat-card-title{
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 4px;
+        margin-top: 6px;
+    }
+    mat-card-subtitle{
+        font-family: 'Montserrat';
+    }
+}
+
+mat-card.services-card:hover{
+    background-color:#6b389d69;
+    color:#fff;
+    mat-card-subtitle{
+        color:#fff;
+    }
+}
+
+mat-card.services-card-2{
+    margin-right: 100px;
+    margin-bottom: 28px;
+    border-radius: 11px;
+    cursor:pointer;
+    box-shadow:0px 0px 18px 6px rgb(154 94 197 / 13%), 0px 0px 0px 0px rgb(0 0 0 / 14%), 0px 0px 0px 0px rgb(0 0 0 / 12%) !important;
+    .example-header-image{
+        background-image: url("/assets/images/Get Paid Instantly.png");
+        background-size: 77px;
+        background-repeat: no-repeat;
+    }
+    .header-image-1{
+        background-image: url("/assets/images/Low interest rate.png");
+    }
+    .mat-card-avatar{
+        height: 80px !important;
+        width: 80px !important;
+    }
+
+    mat-card-title{
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 4px;
+        margin-top: 6px;
+    }
+
+    mat-card-subtitle{
+        font-family: 'Montserrat';
+    }
+}
+
+mat-card.services-card-2:hover{
+    background-color:#6b389d69;
+    color:#fff;
+    mat-card-subtitle{
+        color:#fff;
+    }
+}
+
+.cards-container{
+    margin-top: 90px;
+}
+.wave-bg{
+    position: absolute;
+    left: 0px;
+    top: 825px;
+    z-index: -1;
+    width: 1400px;
+}
+
+::ng-deep.mat-slide-toggle.mat-checked .mat-slide-toggle-bar{
+    background-color: rgb(107 56 157 / 41%);
+}
+
+::ng-deep.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+    background-color: #6b389d;
+}

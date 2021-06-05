@@ -1,0 +1,40 @@
+.circle-big{
+    // position: absolute;
+    // top: -211.90686px;
+    // left: 590px;
+}
+body{
+    background-color:transparent;
+    height:auto;
+    // width: fit-content;
+}
+
+img {
+    position: absolute;
+    left: 610px;
+    top: -180px;
+    z-index: -1;
+  }
+
+  @media only screen and (max-width:1258px){
+      body{
+          width:1337px;
+      }
+  }
+
+//   app-nav-bar{
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     z-index: 2;
+//   }
+
+  .header_change{
+    position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+    background-color:#fff;
+  }
