@@ -2,10 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 
-#prerequisite
+#Prerequisite -
+
 Do npm i to run the project.
 
-#Tools used
+#Tools used -
+
 HTML
 CSS
 Angular
